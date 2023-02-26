@@ -6,11 +6,11 @@
 
 body {
     background-color: #f7f7f7;
+    font-family: "calibri", sans-serif;
 }
 
 header{
     padding: 20px;
-    font-family: "calibri", sans-serif;
     background-color: #2874a6;
     color: white;
     border-bottom: 5px solid black;
@@ -66,9 +66,7 @@ a:active {
     border-bottom: 5px solid black;
 }
 main {
-    width: 100%;
-    display: inline-block;
-    font-family: "calibri", sans-serif;
+    display: block;
 }
 
 main h2 {
@@ -93,28 +91,15 @@ main h2 {
 }
 
 .work {
-    position: relative;
-    margin-bottom: 3px;
-    padding: 5px;
-    height: 300px;
-    background-color: #f7f7f7;
-    color: black;
-    justify-content: space-evenly;
-    text-align: left;
-    text-indent: 60px;
-    border-bottom: 5px solid black;
+    display: inline-block;
 }
 
 .projects {
     border-style: solid;
-    border-width: 5px;
+    border-width: 1px;
     padding: 10px;
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    max-width: 400px;
-    max-height: 400px;
+    float:right;
+    width:30%;
 }
 
 .projects header {
@@ -125,8 +110,7 @@ main h2 {
 }
 
 .projects img {
-    max-height: 370px;
-    max-width: 400px;
+    width:100%;
 }
 
 footer{
