@@ -7,6 +7,9 @@
 body {
     background-color: #f7f7f7;
     font-family: "calibri", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 header{
@@ -24,6 +27,7 @@ header h1 {
 }
 
 header nav {
+    display:flex;
     padding-top: 10px;
     margin-right:20px;
     float: right;
@@ -65,15 +69,16 @@ a:active {
     object-fit: cover;
     border-bottom: 5px solid black;
 }
+
 main {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .content {
     position: relative;
     margin-bottom: 3px;
     padding: 50px;
-    height: 300px;
     background-color: #f7f7f7;
     color: black;
     border-bottom: 5px solid black;
@@ -96,6 +101,8 @@ main {
 
 .work {
     display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
     border-bottom: 5px solid black;
     justify-content: center;
 }
@@ -177,3 +184,10 @@ footer nav ul li {
     padding: 5px;
     margin-left: 10px
 }
+
+@media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+  }
