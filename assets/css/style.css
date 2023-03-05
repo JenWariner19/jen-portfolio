@@ -136,7 +136,7 @@ main {
     margin-top: 10px;
 }
 
-.projectxl h4 {
+.projectxl h3 {
     padding: 20px;
     color: white;
     background-color: #2874a6;
@@ -157,7 +157,7 @@ main {
     width:35%;
 }
 
-.projects h4 {
+.projects h3 {
     padding: 20px;
     color: white;
     background-color: #2874a6;
@@ -178,7 +178,7 @@ footer{
     text-indent: 40px;
 }
 
-footer h1 {
+footer h4 {
     display: inline;
     color: white;
     font-size: 44px;
@@ -208,5 +208,11 @@ footer nav ul li {
     main,
     nav {
       flex-direction: column;
+    }
+  }
+
+  @media screen and (max-width: 920px) {
+    .projectxl {
+      width:50%;
     }
   }
