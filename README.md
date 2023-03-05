@@ -12,6 +12,7 @@ Screenshot
 
 ## Deployed Application
 
+https://jenwariner19.github.io/jen-portfolio/
 
 ## Languages
 
