@@ -214,5 +214,13 @@ footer nav ul li {
   @media screen and (max-width: 920px) {
     .projectxl {
       width:50%;
+      margin-top: 50px;
+    }
+  }
+
+  @media screen and (max-width: 920px) {
+    .work h2 {
+      position: absolute;
+      margin: auto;
     }
   }
